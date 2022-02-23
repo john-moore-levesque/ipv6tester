@@ -19,8 +19,8 @@ class IPTestObject():
 
         try:
             requests.get(self.url)
-        except:
-            return False
+        except requests.exceptions:
+            return requests.exceptions
         return True
 
     def __str__(self):

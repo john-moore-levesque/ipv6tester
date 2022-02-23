@@ -1,5 +1,5 @@
 # from ipv6tester import __version__
-from .iptestobject import iptestobject
+from iptestobject import iptestobject
 import argparse
 import re
 import sys
